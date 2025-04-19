@@ -15,17 +15,19 @@ class ToMerge implements Merge {
                 if(collection_1[i] < collection_3[k]) {
                     result.push(collection_1[i]);
                     i++
-                    continue;
                 } else {
                     result.push(collection_3[k]);
                     k--;
-                    continue;
                 }
-            } 
+                continue;
+            }
+
             if(collection_2[j] < collection_3[k]) { //Second condition, what if j-th in collection_2 is less than i-th in collection_1, we need to check in collection_3 as well
                 result.push(collection_2[j]);
+                j++;
             } else {
                 result.push(collection_3[k]);
+                k--;
             }
         }
         return result;
