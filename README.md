@@ -23,3 +23,8 @@ npx ts-jest config:init
 ```bash
 npx jest
 ```
+### 5. Additional: To compile
+```bash
+npx tsc --init \\ configure
+npx tsc merge.ts \\ this will run to compile into JavaScript
+```
