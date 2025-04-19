@@ -1,8 +1,8 @@
 interface Merge {
-    merge(collection_1: number[], collection_2: number[], collection_3: number[]): number[];
+    (collection_1: number[], collection_2: number[], collection_3: number[]): number[];
 }
 
-const ToMerge: Merge = (collection_1: number[], collection_2: number[], collection_3: number[]): number[] => {
+const ToMerge: Merge = (collection_1, collection_2, collection_3) => {
     let i = 0;
     let j = 0;
     let k = collection_3.length - 1;
@@ -31,3 +31,7 @@ const ToMerge: Merge = (collection_1: number[], collection_2: number[], collecti
     }
     return result;
 }
+
+const result = ToMerge([1, 4], [2, 5], [6, 3]); 
+console.log(result);
+
