@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Sarena786/TypeScript-test-/issues"
   },
-  "homepage": "https://github.com/Sarena786/TypeScript-test-#readme"
+  "homepage": "https://github.com/Sarena786/TypeScript-test-#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2"
+  }
 }
