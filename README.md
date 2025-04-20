@@ -28,3 +28,7 @@ npx jest
 npx tsc --init \\ configure
 npx tsc merge.ts \\ this will run to compile into JavaScript
 ```
+### 6. Additional : To run
+```bash
+node merge.js
+```
