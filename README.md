@@ -19,7 +19,7 @@ This is to setup to handle the TS files for running.
 ```bash
 npx ts-jest config:init
 ```
-### 4. To run 
+### 4. To run unit tests
 ```bash
 npx jest
 ```
