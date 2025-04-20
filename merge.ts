@@ -1,8 +1,8 @@
-interface Merge {
+export interface Merge {
     (collection_1: number[], collection_2: number[], collection_3: number[]): number[];
 }
 
-const ToMerge: Merge = (collection_1, collection_2, collection_3) => {
+export const ToMerge: Merge = (collection_1, collection_2, collection_3) => {
     let i = 0;
     let j = 0;
     let k = collection_3.length - 1;
