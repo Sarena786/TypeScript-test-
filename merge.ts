@@ -32,6 +32,6 @@ export const ToMerge: Merge = (collection_1, collection_2, collection_3) => {
     return result;
 }
 
-const result = ToMerge([1, 4], [2, 5], [6, 3]); 
-console.log(result);
+// const result = ToMerge([1, 4], [2, 5], [6, 3]); 
+// console.log(result);
 
