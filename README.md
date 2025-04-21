@@ -9,7 +9,7 @@ A simple TypeScript project with a unit-tested `merge()` function that merges an
 ```bash
 npm init -y
 ```
-### 2. Install dev dependencies for testing
+### 2. Install development dependencies for testing
 ```bash
 npm install --save-dev jest ts-jest @types/jest
 ```
@@ -28,7 +28,7 @@ npx jest
 npx tsc --init \\ configure
 npx tsc merge.ts \\ this will run to compile into JavaScript
 ```
-### 6. Additional : To run
+### 6. Additional : To run after compile
 ```bash
 node merge.js
 ```
